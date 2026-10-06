@@ -1,0 +1,17 @@
+{
+  "name": "text-table",
+  "version": "0.1.0",
+  "description": "wide chars won't break your aligned text tables",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
