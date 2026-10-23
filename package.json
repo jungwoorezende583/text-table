@@ -1,6 +1,6 @@
 {
   "name": "text-table",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "wide chars won't break your aligned text tables",
   "type": "module",
   "main": "src/index.js",
