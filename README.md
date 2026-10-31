@@ -37,3 +37,10 @@ The trade-off: the width tables are hand-rolled, not pulled from the full Unicod
 
 - `table(rows: string[][]): string` — render a 2D array as an aligned text table.
 - `measureWidth(str: string): number` — measure the display width of a string.
+
+## Design notes
+
+The window stores values eagerly rather than keeping running aggregates. Running
+sums drift with floating point over long streams, and recomputing from a small
+buffer is cheap enough that the drift is not worth the speed.
+
